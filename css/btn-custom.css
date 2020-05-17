@@ -1,0 +1,82 @@
+button:focus{
+	outline:0px;
+}
+.btn-service-text{
+	font-size: 1vw;
+    font-weight: 600;
+    line-height: 5vh;
+    letter-spacing: 8px;
+    color: white;
+	top: -48px;
+	position: relative;
+}
+.btn-service-slide-text{
+	font-size: 3vh;
+    font-weight: 600;
+    line-height: 3vh;
+    letter-spacing: 8px;
+    color: white;
+	top: -48px;
+	position: relative;}
+
+.button {
+	padding-top: 5%; 
+	background-color:transparent;
+	border: 0px;
+}
+.content .button {
+	bottom:5%; 
+	background-color:transparent;
+	border: 0px;
+}
+.shape {
+	stroke-dasharray: 140 540;
+	stroke-dashoffset: -474;
+	stroke-width: 8px;
+	fill: transparent;
+	stroke: #a61c20;
+	border-bottom: 5px solid black;
+	transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.button-text {
+	font-size: 3vh;
+    font-weight: 600;
+    line-height: 3vh;
+    letter-spacing: 8px;
+    color: #333333;
+	top: -48px;
+	position: relative;
+}
+.button:hover .shape {
+	stroke-width: 2px;
+	stroke-dashoffset: 0;
+	stroke-dasharray: 760;
+	stroke:#f1c81e;
+}
+.overlay button{
+	margin-top:-3%;
+}
+.btn-service{
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: transparent;
+    color: #f1c81e;
+    border-color: #f1c81e;
+    border-style: solid;
+    border-radius: 2px;
+}
+.btn-service:hover{
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: white;
+    color:#f1c81e;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 2px;
+	cursor:pointer;
+}
