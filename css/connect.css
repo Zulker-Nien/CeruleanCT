@@ -1,0 +1,49 @@
+.map{
+    height:100vh;
+    width:100%;
+    background: cover;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.left{
+    height:100vh;
+    background-color: #2a52be;
+}
+
+.left h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 200px; 
+    color: white;
+}
+
+.left p{
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px; 
+    padding-left: 2%;
+    color: white;
+}
+
+.para1{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.para1 p{
+    margin-top: 0%;
+    padding-top: 0%;
+    font-family:  'Oswald',sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.para1 i{
+    margin-top: 0%;
+    padding-top: 1.5%;
+    font-size: 20px;
+    color:white;
+}

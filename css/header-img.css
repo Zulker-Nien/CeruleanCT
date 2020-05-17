@@ -1,0 +1,47 @@
+.header{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 20;
+}
+.header-img{
+	width:45vh;
+    overflow: hidden;
+    margin-top: 26vh;
+}
+.pata1{
+    position: absolute;
+    width: 12vh;
+    margin-top: 25vh;
+    margin-left: -36%;
+	animation: rf 3s infinite;
+    z-index: 20;
+}
+.pata2{
+    position: absolute;
+    width: 12vh;
+    margin-top: 29vh;
+    margin-left: -29%;
+	animation: yf 5s infinite;
+    z-index: 20;
+}
+@keyframes yf{	
+
+	0%{ transform: rotate(0deg);
+    transform-origin: bottom left;}
+	50%{ transform: rotate(10deg);
+    transform-origin: bottom left;}
+	100%{ transform: rotate(0deg);
+    transform-origin: bottom left;}
+	
+}
+@keyframes rf{	
+
+	0%{ transform: rotate(0deg);
+    transform-origin: bottom left;}
+	50%{ transform: rotate(5deg);
+    transform-origin: bottom left;}
+	100%{ transform: rotate(0deg);
+    transform-origin: bottom left;}
+	
+}
