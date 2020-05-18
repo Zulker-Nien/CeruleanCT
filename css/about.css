@@ -134,7 +134,7 @@
 #categories div h2, #categories div p{
   width:100%;
   padding:0 5%;
-  background-color:#2a52be; background-color: #0062ccbd;
+  background-color:#0f112f; background-color: #0f112fe0;
   font-family: 'Raleway', sans-serif;
   
   -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
@@ -235,8 +235,8 @@ Home Slider
 ==================================== */
 
 #home-slider {
-  height: 80vh;
-  width: 90vw;
+  height: 60vh;
+  width: 70vw;
   position: relative;
 
 }
