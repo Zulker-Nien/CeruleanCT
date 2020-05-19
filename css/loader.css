@@ -3,7 +3,7 @@
     width: 100%;
     position: absolute;
     background-color: white;
-    display: flex;
+    z-index:200;
 }
 
 /* Fonts */
