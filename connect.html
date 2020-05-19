@@ -10,12 +10,41 @@
         <link href="css/bootstrap_css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="css/custom.css" type="text/css">
         <link rel="stylesheet" href="css/connect.css" type="text/css">
+        <link rel="stylesheet" href="css/loader.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     
     <body>
-
+        <div class="loader-wrapper">
+            <div class='loader'>
+                <div class='loader_overlay'></div>
+                <div class='loader_cogs'>
+                    <div class='loader_cogs__top'>
+                        <div class='top_part'></div>
+                        <div class='top_part'></div>
+                        <div class='top_part'></div>
+                        <div class='top_hole'></div>
+                    </div>
+                    <div class='loader_cogs__left'>
+                        <div class='left_part'></div>
+                        <div class='left_part'></div>
+                        <div class='left_part'></div>
+                        <div class='left_hole'></div>
+                    </div>
+                    <div class='loader_cogs__bottom'>
+                        <div class='bottom_part'></div>
+                        <div class='bottom_part'></div>
+                        <div class='bottom_part'></div>
+                        <div class='bottom_hole'><!-- lol --></div>
+            </div>
+                    <p>loading</p>
+                </div>
+            </div>
+        </div>
+        <!--Loader-->  
+        
         <section class="">
             <div class="">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -122,7 +151,12 @@
     </div>
         <!--footer-section-->
         
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="js/bootstrap_js/bootstrap.min.js"></script>
+        <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap_js/bootstrap.min.js"></script>
   </body>
 </html>
