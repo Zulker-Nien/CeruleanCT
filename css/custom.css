@@ -257,7 +257,6 @@ body{
     padding-right: 5%;
 }
 
-
 .service-section{
 	background-color: white;
 	width:100vw;
@@ -522,3 +521,4 @@ fill: yellow;
 svg:hover #palette{
 fill: yellow;
 }
+
