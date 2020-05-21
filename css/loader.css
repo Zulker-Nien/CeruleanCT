@@ -6,11 +6,6 @@
     z-index:200;
 }
 
-/* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/* Variables */
-/* Mixins */
-
 .loader {
   height: 100%;
   position: relative;
@@ -69,7 +64,7 @@
   border-radius: 10px;
   position: absolute;
   height: 100px;
-  background: #f98db9;
+  background: darkred;
 }
 .loader_cogs__top div.top_hole {
   width: 50px;
