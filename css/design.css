@@ -170,7 +170,11 @@
 	width: 100%;
 	box-sizing: border-box;
     overflow: hidden;
+    background-image: url("../images/design/Untitled-1.png");
+    background-size: 100% ;
 }
+
+
 .entire-content {
 	margin: auto;
 	width: 190px;
@@ -245,3 +249,5 @@
 		transform: rotateY(360deg);
 	}
 }
+
+
