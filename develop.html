@@ -11,13 +11,41 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
         <link rel="stylesheet" href="css/custom.css" type="text/css">
-        <link rel="stylesheet" href="css/btn-custom.css" type="text/css">
-       
+        <link rel="stylesheet" href="css/develop.css" type="text/css">
+        <link rel="stylesheet" href="css/loader.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     
     <body>
-
+        <div class="loader-wrapper">
+            <div class='loader'>
+                <div class='loader_overlay'></div>
+                <div class='loader_cogs'>
+                    <div class='loader_cogs__top'>
+                        <div class='top_part'></div>
+                        <div class='top_part'></div>
+                        <div class='top_part'></div>
+                        <div class='top_hole'></div>
+                    </div>
+                    <div class='loader_cogs__left'>
+                        <div class='left_part'></div>
+                        <div class='left_part'></div>
+                        <div class='left_part'></div>
+                        <div class='left_hole'></div>
+                    </div>
+                    <div class='loader_cogs__bottom'>
+                        <div class='bottom_part'></div>
+                        <div class='bottom_part'></div>
+                        <div class='bottom_part'></div>
+                        <div class='bottom_hole'><!-- lol --></div>
+            </div>
+                    <p>loading</p>
+                </div>
+            </div>
+        </div>
+        <!--Loader-->  
+        
         <section class="">
             <div class="">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -61,8 +89,67 @@
        
         
         
-        <section>
-            <h1>PAGE UNDER MAINTENANCE</h1>
+        <section class="slidesec">
+            <div class="slider-container">
+                <div class="slider-control left inactive"></div>
+                <div class="slider-control right"></div>
+                <ul class="slider-pagi"></ul>
+                <div class="slider">
+                    <div class="slide slide-0 active">
+                        <div class="slide__bg"></div>
+                        <div class="slide__content">
+                            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                            </svg>
+                            <div class="slide__text">
+                                <h2 class="slide__text-heading">Project name 1</h2>
+                                <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                <a class="slide__text-link">Project link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-1 ">
+                        <div class="slide__bg"></div>
+                            <div class="slide__content">
+                                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                                </svg>
+                                <div class="slide__text">
+                                    <h2 class="slide__text-heading">Project name 2</h2>
+                                    <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                    <a class="slide__text-link">Project link</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="slide__bg"></div>
+                        <div class="slide__content">
+                            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                            </svg>
+                            <div class="slide__text">
+                              <h2 class="slide__text-heading">Project name 3</h2>
+                              <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                              <a class="slide__text-link">Project link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="slide__bg"></div>
+                        <div class="slide__content">
+                            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                            </svg>
+                            <div class="slide__text">
+                                <h2 class="slide__text-heading">Project name 4</h2>
+                                  <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                                <a class="slide__text-link">Project link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!--MIDDLE SECTION-->
         
@@ -104,7 +191,14 @@
     </div>
         <!--footer-section-->
         
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="js/bootstrap_js/bootstrap.min.js"></script>
+        <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+        </script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script  src="js/dscript.js"></script>
+        
+        <script src="js/bootstrap_js/bootstrap.min.js"></script>
   </body>
 </html>
