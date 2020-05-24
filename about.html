@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
         <link rel="stylesheet" href="css/custom.css" type="text/css">
         <link rel="stylesheet" href="css/about.css" type="text/css">
-        <link rel="stylesheet" href="css/btn-custom.css" type="text/css">
         <link rel="stylesheet" href="css/loader.css" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900' rel='stylesheet' type='text/css'>
@@ -52,7 +51,12 @@
         </div>
         <!--Loader-->  
         
-        <section class="">
+        <div>
+            <a href="javascript:" id="topp"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <!--SCROLL-TO-TOP-->
+        
+        <section>
             <div class="">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#"><img src="images/logo.png" width="100" height="40"></a>
@@ -264,11 +268,12 @@
             $(".loader-wrapper").fadeOut("slow");
         });
         </script>
+        <script src="js/scroll.js"></script>
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap_js/bootstrap.min.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js'></script>
+    
         <script>
             var mySwiper = new Swiper(".swiper-container", {
                 direction: "vertical",
@@ -283,5 +288,9 @@
                 mousewheelControl: 1
             });
         </script>
+        
+        
+        <script src="js/scroll.js"></script>
+        
   </body>
 </html>
