@@ -132,47 +132,6 @@ body{
   font-weight: 500;
   letter-spacing: 0.7px;
 }
-.aboutbutton:hover {
-  animation: rotate 0.7s ease-in-out both;
-}
-.aboutbutton:hover span{
-  animation: storm 0.7s ease-in-out both;
-  animation-delay: 0.06s;
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg) translate3d(0, 0, 0);
-  }
-  25% {
-    transform: rotate(3deg) translate3d(0, 0, 0);
-  }
-  50% {
-    transform: rotate(-3deg) translate3d(0, 0, 0);
-  }
-  75% {
-    transform: rotate(1deg) translate3d(0, 0, 0);
-  }
-  100% {
-    transform: rotate(0deg) translate3d(0, 0, 0);
-  }
-}
-@keyframes storm {
-  0% {
-    transform: translate3d(0, 0, 0) translateZ(0);
-  }
-  25% {
-    transform: translate3d(4px, 0, 0) translateZ(0);
-  }
-  50% {
-    transform: translate3d(-3px, 0, 0) translateZ(0);
-  }
-  75% {
-    transform: translate3d(2px, 0, 0) translateZ(0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0) translateZ(0);
-  }
-}
 
 .aboutimgdesk, .aboutimgmobile{
     z-index:-10;
@@ -436,7 +395,8 @@ body{
     margin-left: 3%;
     margin-top: 40vh;
 	position:absolute;
-}.service-section2 .handle{
+}
+.service-section2 .handle{
     height: 20vh;
     width: 5px;
     border-radius: 3px;
@@ -507,18 +467,44 @@ body{
 }
 
 
-svg#box {
-    margin-top: 80px; 
- width:240px;
-height:240px;
-transition: 1s; 
+
+#topp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index:20;
+}
+#topp i{
+    color: #000;
+    margin: 0;
+    left: 16px;
+    position: relative;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-svg:hover #bulb{
-fill: yellow;
+#topp:hover{
+    background: rgba(0, 0, 0, 0.9);
 }
-
-svg:hover #palette{
-fill: yellow;
+#topp:hover i{
+    color: #fff;
+    top: 5px;
 }
-
